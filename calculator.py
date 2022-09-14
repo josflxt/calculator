@@ -6,18 +6,7 @@ root.title("JOEL CALCULATOR")
 e=Entry(root,width=40,borderwidth=5)
 e.grid(row=0,column=0,padx=10,pady=10,columnspan=3)
 
-def buttonclick(num):
-    temp=e.get()
-    e.delete(0,END)
-    e.insert(0,str(temp)+str(num))
-    temp=" "
-    
-def buttonclear():
-    e.delete(0,END)
-
-def calculate():
-    snumb=e.get()
-    e.delete(0,END)
+def butt
     if math=="addition":
         e.insert(0,fnumb+int(snumb))
     if math=="subtractio":
